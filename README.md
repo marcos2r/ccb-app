@@ -1,1 +1,1 @@
-# ccb-app
+# ccb-ddos-app
