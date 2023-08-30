@@ -46,7 +46,7 @@ Contribuições são bem-vindas! Se você deseja contribuir com este projeto, si
 
 ## Licença
 
-Este projeto está sob a licença [Nome da Licença]. Consulte o arquivo `LICENSE` para obter mais detalhes.
+Este projeto está sob a licença GNU GENERAL PUBLIC LICENSE. Consulte o arquivo `LICENSE` para obter mais detalhes.
 
 ## Contato
 
