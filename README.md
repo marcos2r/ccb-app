@@ -22,12 +22,6 @@ O projeto está estruturado da seguinte forma:
 
 Antes de executar o projeto, certifique-se de ter instalado o Python e as bibliotecas necessárias. Consulte o arquivo `requirements.txt` para obter a lista completa de dependências.
 
-## Instalação
-
-1. Clone este repositório: `git clone https://github.com/seu-usuario/ccb-ddos-app.git`
-2. Acesse o diretório do projeto: `cd ccb-ddos-app`
-3. Instale as dependências: `pip install -r requirements.txt`
-
 ## Uso
 
 1. Execute o arquivo `app.py` para iniciar a aplicação.
@@ -44,6 +38,53 @@ Contribuições são bem-vindas! Se você deseja contribuir com este projeto, si
 4. Envie as alterações para o seu fork: `git push origin minha-feature`
 5. Abra um pull request neste repositório.
 
+## Passo 1 - Instalação
+
+1. Clone este repositório: `git clone https://github.com/seu-usuario/ccb-ddos-app.git`
+2. Acesse o diretório do projeto: `cd ccb-ddos-app`
+
+## Passo 2 - Instalar o virtualenv
+Instale o virtualenv para trabalhar com ambientes virtuais no python utilizando o comando:
+```
+pip install virtualenv
+```
+Caso dê problema com a versão do pip atual, atualize o pip utilizando:
+```
+python -m pip install --upgrade pip
+```
+
+## Passo 3 - Ative o virtualenv
+Para ativar o ambiente virtual rode:
+```
+virtualenv venv
+```
+
+## Passo 4 - (Depende do seu sistema operacional)
+### Windows
+```
+.\venv\Scripts\activate
+```
+
+### Linux
+```
+source venv/bin/activate
+```
+Para saber se deu certo a ativação, basta ver se fica ```(venv)``` aparecendo antes do caminho no terminal
+
+## Passo 5 - Instalar as dependências
+Com o ambiente virtual ativado, toda instalação de biblioteca externa fica somente no ambiente virtual, ao invés de sujar sua instalação do python na máquina local
+
+Com o ambiente virtual instalado, execute o comando abaixo para instalar as dependências
+```
+pip install -r requirements.txt
+```
+
+## Observação
+Para atualizar o `requirements.txt` com novas dependências que adicionar, basta executar
+```
+pip freeze > requirements.txt
+```
+
 ## Licença
 
 Este projeto está sob a licença GNU General Public License v3.0. Consulte o arquivo `LICENSE` para obter mais detalhes.
@@ -51,5 +92,3 @@ Este projeto está sob a licença GNU General Public License v3.0. Consulte o ar
 ## Contato
 
 Para mais informações, entre em contato com Marcos Ricardo Rodrigues via bcc.marcos@gmail.com ou @marcos2_r(https://www.instagram.com/marcos2_r/).
-
-
