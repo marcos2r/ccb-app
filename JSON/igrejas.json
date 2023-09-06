@@ -1,399 +1,411 @@
 [
     {
-        "cod": "BR 10-0054",
-        "igreja": "VILA PLANALTO (Central)",
-        "cultos": [
+        "nome empresarial": "CONGREGACAO CRISTA NO BRASIL",
+        "logradouro": "R EDIBERTO C DE OLIVEIRA",
+        "numero": "2239",
+        "cep": "79.806-050",
+        "bairro": "Vila Planalto",
+        "municipio": "Dourados",
+        "uf": "MS",
+        "presidente": "JOSE APARECIDO CAMARGO",
+        "igrejas": [
             {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0054",
+                "igreja": "VILA PLANALTO (Central)",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quarta",
-                "horario": "19:30"
+                "cod": "BR 10-0563",
+                "igreja": "ALDEIA BORORÓ",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "18:00"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0563",
-        "igreja": "ALDEIA BORORÓ",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "18:00"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0577",
-        "igreja": "ALDEIA BORORÓ II",
-        "cultos": [
-            {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0322",
-        "igreja": "ALDEIA JAGUAPIRU",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "09:30"
+                "cod": "BR 10-0577",
+                "igreja": "ALDEIA BORORÓ II",
+                "cultos": [
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quarta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0467",
-        "igreja": "ALTOS DO INDAIÁ",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0322",
+                "igreja": "ALDEIA JAGUAPIRU",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "09:30"
+                    },
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sexta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0538",
-        "igreja": "DISTRITO DE ITAHUM",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0244",
-        "igreja": "DISTRITO INDÁPOLIS",
-        "cultos": [
-            {
-                "dia": "quinta",
-                "horario": "19:30"
+                "cod": "BR 10-0467",
+                "igreja": "ALTOS DO INDAIÁ",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "sexta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0258",
-        "igreja": "DISTRITO MACAÚBA",
-        "cultos": [
-            {
-                "dia": "quarta",
-                "horario": "19:30"
+                "cod": "BR 10-0538",
+                "igreja": "DISTRITO DE ITAHUM",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0055",
-        "igreja": "DISTRITO PANAMBI",
-        "cultos": [
-            {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0062",
-        "igreja": "DISTRITO VILA VARGAS",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0244",
+                "igreja": "DISTRITO INDÁPOLIS",
+                "cultos": [
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quarta",
-                "horario": "19:30"
+                "cod": "BR 10-0258",
+                "igreja": "DISTRITO MACAÚBA",
+                "cultos": [
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0149",
-        "igreja": "JARDIM ÁGUA BOA",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0055",
+                "igreja": "DISTRITO PANAMBI",
+                "cultos": [
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "terca",
-                "horario": "19:30"
+                "cod": "BR 10-0062",
+                "igreja": "DISTRITO VILA VARGAS",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sexta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0312",
-        "igreja": "JARDIM CARISMA",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0149",
+                "igreja": "JARDIM ÁGUA BOA",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sexta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "terca",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0060",
-        "igreja": "JARDIM CLÍMAX",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0312",
+                "igreja": "JARDIM CARISMA",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quinta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0341",
-        "igreja": "JARDIM COLIBRI",
-        "cultos": [
-            {
-                "dia": "terca",
-                "horario": "19:30"
+                "cod": "BR 10-0060",
+                "igreja": "JARDIM CLÍMAX",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0205",
-        "igreja": "JARDIM DOS ESTADOS",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0341",
+                "igreja": "JARDIM COLIBRI",
+                "cultos": [
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sexta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0490",
-        "igreja": "JARDIM GUAICURUS",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0205",
+                "igreja": "JARDIM DOS ESTADOS",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "sexta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "terca",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0335",
-        "igreja": "JARDIM LARANJA DOCE",
-        "cultos": [
-            {
-                "dia": "sabado",
-                "horario": "19:00"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0320",
-        "igreja": "JARDIM MÁRCIA",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0490",
+                "igreja": "JARDIM GUAICURUS",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "terca",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0382",
-        "igreja": "JARDIM NOVA ESPERANÇA",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0335",
+                "igreja": "JARDIM LARANJA DOCE",
+                "cultos": [
+                    {
+                        "dia": "sabado",
+                        "horario": "19:00"
+                    }
+                ]
             },
             {
-                "dia": "quarta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0319",
-        "igreja": "JARDIM NOVO HORIZONTE",
-        "cultos": [
-            {
-                "dia": "terca",
-                "horario": "19:30"
+                "cod": "BR 10-0320",
+                "igreja": "JARDIM MÁRCIA",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0488",
-        "igreja": "JARDIM SYRIA RASSELEN",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0382",
+                "igreja": "JARDIM NOVA ESPERANÇA",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quinta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0227",
-        "igreja": "JÓQUEI CLUB",
-        "cultos": [
-            {
-                "dia": "quarta",
-                "horario": "19:30"
+                "cod": "BR 10-0319",
+                "igreja": "JARDIM NOVO HORIZONTE",
+                "cultos": [
+                    {
+                        "dia": "terca",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0064",
-        "igreja": "PARQUE DAS NAÇÕES II",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0488",
+                "igreja": "JARDIM SYRIA RASSELEN",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sexta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0243",
-        "igreja": "PARQUE NOVA DOURADOS",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0227",
+                "igreja": "JÓQUEI CLUB",
+                "cultos": [
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quinta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0242",
-        "igreja": "PARQUE RESIDENCIAL MORADA DO SALTO",
-        "cultos": [
-            {
-                "dia": "quinta",
-                "horario": "19:30"
+                "cod": "BR 10-0064",
+                "igreja": "PARQUE DAS NAÇÕES II",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "sexta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0513",
-        "igreja": "RESIDENCIAL OLIVEIRA",
-        "cultos": [
-            {
-                "dia": "quarta",
-                "horario": "19:30"
+                "cod": "BR 10-0243",
+                "igreja": "PARQUE NOVA DOURADOS",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "sabado",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0515",
-        "igreja": "SITIOCAS CAMPINA VERDE",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0242",
+                "igreja": "PARQUE RESIDENCIAL MORADA DO SALTO",
+                "cultos": [
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quarta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0578",
-        "igreja": "SITIOCAS CAMPO BELO III",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0513",
+                "igreja": "RESIDENCIAL OLIVEIRA",
+                "cultos": [
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    },
+                    {
+                        "dia": "sabado",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quinta",
-                "horario": "19:30"
-            }
-        ]
-    },
-    {
-        "cod": "BR 10-0056",
-        "igreja": "VILA SÃO FRANCISCO",
-        "cultos": [
-            {
-                "dia": "domingo",
-                "horario": "19:00"
+                "cod": "BR 10-0515",
+                "igreja": "SITIOCAS CAMPINA VERDE",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quarta",
+                        "horario": "19:30"
+                    }
+                ]
             },
             {
-                "dia": "quinta",
-                "horario": "19:30"
+                "cod": "BR 10-0578",
+                "igreja": "SITIOCAS CAMPO BELO III",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    }
+                ]
+            },
+            {
+                "cod": "BR 10-0056",
+                "igreja": "VILA SÃO FRANCISCO",
+                "cultos": [
+                    {
+                        "dia": "domingo",
+                        "horario": "19:00"
+                    },
+                    {
+                        "dia": "quinta",
+                        "horario": "19:30"
+                    }
+                ]
             }
         ]
     }
