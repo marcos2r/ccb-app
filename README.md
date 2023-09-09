@@ -6,12 +6,14 @@ O **ccb-ddos-app** é uma aplicação destinada ao cadastro de administrações 
 
 O projeto está estruturado da seguinte forma:
 
+- `JSON/`: Este diretório contém os arquivos JSON com os dados das igrejas.
+  - `igrejas.json`: Arquivo JSON que armazena os dados das igrejas.
+- `sample`: Diretório de modulo
+  - `mongodb_manager.py`: este arquivo contém a classe MongoDBManager, que oferece métodos para conectar e operar com um banco de dados MongoDB.
 - `LICENSE`: Este arquivo contém as informações de licença do projeto.
 - `README.md`: Este arquivo que você está lendo, fornece informações sobre o projeto.
 - `app.py`: O arquivo que contém a implementação da aplicação em linguagem Python.
 - `wsgi.py`: Este arquivo executa o serviço da aplicação.
-- `JSON/`: Este diretório contém os arquivos JSON com os dados das igrejas.
-  - `igrejas.json`: Arquivo JSON que armazena os dados das igrejas.
 
 ## Funcionalidades
 
