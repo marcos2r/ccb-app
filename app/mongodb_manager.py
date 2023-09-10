@@ -6,7 +6,7 @@ Este módulo contém a classe MongoDBManager, que oferece métodos para conectar
 Autor: Marcos Ricardo Rodrigues
 Data de Criação: 09 de setembro de 2023
 
-Licença: MIT
+Licença: GNU General Public License v3.0
 
 Para usar este módulo, forneça as informações de conexão e utilize os métodos da classe MongoDBManager para interagir com o MongoDB.
 """
