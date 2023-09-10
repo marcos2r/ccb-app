@@ -10,7 +10,7 @@ O **ccb-ddos-app** é uma aplicação destinada ao cadastro de administrações 
 ## Estrutura do Projeto
 
 A estrutura do projeto segue as seguintes convenções:
-
+```
 meu_projeto_flask/
 │
 ├── app/
@@ -27,7 +27,7 @@ meu_projeto_flask/
 ├── README.md
 ├── venv/ (ambiente virtual - opcional)
 └── outros_recursos/
-
+```
 Aqui está uma breve descrição de cada um dos principais componentes:
 
 - **app/**: Este diretório contém o código principal da aplicação Flask.
