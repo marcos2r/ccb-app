@@ -147,8 +147,8 @@ Para mais informações, entre em contato com:
 
 Marcos Ricardo Rodrigues
 bcc.marcos@gmail.com
-(@marcos2_r)[https://www.instagram.com/marcos2_r/].
+[Instagram](https://www.instagram.com/marcos2_r/).
 
 Gabriel Moya
 gabrielmoya123@gmail.com
-(@gabrielmoya.dev)[https://www.instagram.com/gabrielmoya.dev/]
+[Instagram](https://www.instagram.com/gabrielmoya.dev/)
