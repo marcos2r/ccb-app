@@ -119,6 +119,17 @@ Com o ambiente virtual instalado, execute o comando abaixo para instalar as depe
 ```
 pip install -r requirements.txt
 ```
+### Passo 6 - Criar o arquivo .env
+1. Crie o arquivo .env: No diretório raiz do seu projeto, crie um arquivo chamado .env.
+2. Defina Variáveis de Ambiente: Dentro do arquivo .env, como no exemplo abaixo:
+```
+MONGODB_HOST=localhost
+MONGODB_PORT=27017
+MONGODB_USERNAME=seu_usuario
+MONGODB_PASSWORD=sua_senha
+MONGODB_DATABASE=seu_banco_de_dados
+```
+Observação: Lembre-se de substituir os valores das variáveis conforme sua configuração.
 
 ### Observação
 Para atualizar o `requirements.txt` com novas dependências que adicionar, basta executar
