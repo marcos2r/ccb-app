@@ -145,6 +145,6 @@ Este projeto está sob a licença GNU General Public License v3.0. Consulte o ar
 
 Para mais informações, entre em contato com:
 
-Marcos Ricardo Rodrigues (email: bcc.marcos@gmail.com)
+Marcos Ricardo Rodrigues (bcc.marcos@gmail.com)
 
-Gabriel Moya (email: gabrielmoya123@gmail.com)
+Gabriel Moya (gabrielmoya123@gmail.com)
