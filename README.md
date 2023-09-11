@@ -143,4 +143,12 @@ Este projeto está sob a licença GNU General Public License v3.0. Consulte o ar
 
 ## Contato
 
-Para mais informações, entre em contato com Marcos Ricardo Rodrigues via bcc.marcos@gmail.com ou @marcos2_r(https://www.instagram.com/marcos2_r/).
+Para mais informações, entre em contato com:
+
+Marcos Ricardo Rodrigues
+bcc.marcos@gmail.com
+(@marcos2_r)[https://www.instagram.com/marcos2_r/].
+
+Gabriel Moya
+gabrielmoya123@gmail.com
+(@gabrielmoya.dev)[https://www.instagram.com/gabrielmoya.dev/]
