@@ -1,6 +1,8 @@
 import json
 from flask import Flask, Response
 from flask_cors import CORS
+from decouple import config
+from app.mongodb_manager import MongoDBManager
 
 # Dados no formato JSON
 dados = [
@@ -325,13 +327,23 @@ dados = [
     }
 ]
 
+
+
 def obter_dados():
+    print(mongodb_host)
     return dados
 
 
 def criar_app():
     app = Flask(__name__)
-    CORS(app) # Habilita CORS para o aplicativo
+    CORS(app)  # Habilita CORS para o aplicativo
+
+     # Use as variáveis do seu arquivo .env para construir a mongodb_uri
+    mongodb_uri = f"mongodb://{config('MONGODB_USERNAME')}:{config('MONGODB_PASSWORD')}@{config('MONGODB_HOST')}:{config('MONGODB_PORT')}/{config('MONGODB_DATABASE')}"
+
+    mongo_manager = MongoDBManager(uri=mongodb_uri)
+
+    mongo_manager.connect()
 
     @app.route("/dados", methods=["GET"])
     def get_data():
