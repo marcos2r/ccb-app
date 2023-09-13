@@ -21,10 +21,13 @@ class MongoDBManager:
         try:
             # Crie uma conexão com o servidor MongoDB Atlas
             self.client = pymongo.MongoClient(self.uri, server_api=ServerApi(self.server_api_version))
-            print("Conexão bem-sucedida ao MongoDB")
+            print(f"Conexão bem-sucedida ao MongoDB")
+            return True
 
         except Exception as e:
             print(f"Erro ao conectar ao MongoDB: {e}")
+        
+        return False
 
     def disconnect(self):
         """

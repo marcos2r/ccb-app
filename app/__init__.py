@@ -330,20 +330,17 @@ dados = [
 
 
 def obter_dados():
-    print(mongodb_host)
+    # Use as variáveis do seu arquivo .env para construir a mongodb_uri
+    mongodb_uri = config('MONGODB_URL')
+
+    db = MongoDBManager(uri=mongodb_uri)
+    db.connect()
     return dados
 
 
 def criar_app():
     app = Flask(__name__)
     CORS(app)  # Habilita CORS para o aplicativo
-
-     # Use as variáveis do seu arquivo .env para construir a mongodb_uri
-    mongodb_uri = f"mongodb://{config('MONGODB_USERNAME')}:{config('MONGODB_PASSWORD')}@{config('MONGODB_HOST')}:{config('MONGODB_PORT')}/{config('MONGODB_DATABASE')}"
-
-    mongo_manager = MongoDBManager(uri=mongodb_uri)
-
-    mongo_manager.connect()
 
     @app.route("/dados", methods=["GET"])
     def get_data():
