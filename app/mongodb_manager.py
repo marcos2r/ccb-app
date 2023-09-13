@@ -158,7 +158,7 @@ class MongoDBManager:
                 print(f"Erro ao excluir documentos: {e}")
         return None
 
-
+'''
 # Exemplo de uso da classe MongoDBManager
 if __name__ == "__main__":
     # Parâmetros de conexão ao MongoDB
@@ -190,3 +190,4 @@ if __name__ == "__main__":
 
     # Desconecte-se do MongoDB
     manager.disconnect()
+    '''
