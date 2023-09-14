@@ -2,7 +2,7 @@ import json
 from flask import Flask, Response
 from flask_cors import CORS
 from config import mongodb_name, mongodb_uri
-from app.mongodb_manager import MongoDBManager
+from app.models.mongodb_manager import MongoDBManager
 
 # Dados no formato JSON
 dados = [
