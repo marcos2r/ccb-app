@@ -2,7 +2,7 @@ import json
 from flask import Flask, Response
 from flask_cors import CORS
 from config import mongodb_name, mongodb_uri
-from app.models.mongodb_manager import MongoDBManager
+from app.models.mongodb import MongoDB
 
 # Dados no formato JSON
 dados = [
@@ -327,12 +327,8 @@ dados = [
     }
 ]
 
-
-
 def obter_dados():
-
-
-    db = MongoDBManager(uri=mongodb_uri, dbname=mongodb_name)
+    db = MongoDB()
     db.connect()
     print(db.get_collection('igrejas')) 
     return dados
