@@ -1,7 +1,5 @@
 from decouple import config
 
-host = config('MONGODB_HOST')
-port = config('MONGODB_PORT')
-username = config('MONGODB_USERNAME')
-password = config('MONGODB_PASSWORD')
-database = config('MONGODB_DATABASE')
+# Use as variáveis do seu arquivo .env para construir a mongodb_uri
+mongodb_uri = config('MONGODB_URL')
+mongodb_name = config('MONGODB_NAME')
