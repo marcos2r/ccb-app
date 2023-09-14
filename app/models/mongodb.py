@@ -18,10 +18,6 @@ class MongoDB:
             # Em caso de erro na conexão, imprime a mensagem de erro
             print(f"Erro ao conectar ao MongoDB: {e}")
 
-    def get_db(self):
-        # Retorna o objeto de banco de dados MongoDB
-        return self.__db
-
     def get_collection(self, name):
         try:
             # Obtém uma coleção do banco de dados
