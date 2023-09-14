@@ -2,3 +2,7 @@
 .env
 *.pyc
 *.pyc
+*.pyc
+*.pyc
+*.pyc
+app/__pycache__/mongodb_manager.cpython-311.pyc
