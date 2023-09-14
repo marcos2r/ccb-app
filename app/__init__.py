@@ -331,7 +331,7 @@ def obter_dados():
     db = MongoDB()
     db.connect()
     print(db.get_collection('igrejas')) 
-    
+    db.disconnect()
     return dados
 
 
