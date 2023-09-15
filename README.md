@@ -69,8 +69,9 @@ Este script é o ponto de entrada para a execução da aplicação Flask definid
 
 **Exemplo:**
 
-```bash
+```
 python run.py
+```
 
 ## Pré-requisitos
 
