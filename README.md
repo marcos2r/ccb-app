@@ -51,13 +51,37 @@ Aqui está uma breve descrição de cada um dos principais componentes:
 
 - **outros_recursos/**: Este diretório pode conter quaisquer outros recursos relacionados ao projeto, como scripts, arquivos de configuração adicionais ou qualquer coisa que seja específica do seu projeto.
 
+## `run.py` - Script de Inicialização da Aplicação Flask
+
+**Autor:** [Seu Nome]
+**Data de Alteração:** [Data de Hoje]
+
+Este script é o ponto de entrada para a execução da aplicação Flask definida no módulo `app`. Ele realiza as seguintes ações:
+
+1. Importa a função `criar_app` do módulo `app`, responsável por criar uma instância da aplicação Flask.
+
+2. Cria uma instância da aplicação Flask utilizando a função `criar_app()`.
+
+3. Tenta iniciar o servidor Flask para escutar em todas as interfaces (0.0.0.0).
+
+4. Em caso de erro durante a inicialização do servidor, trata a exceção e imprime uma mensagem amigável.
+
+**Utilização:**
+
+- Execute este script para iniciar a sua aplicação Flask.
+
+**Exemplo:**
+
+```bash
+python run.py
+
 ## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter instalado o Python e as bibliotecas necessárias. Consulte o arquivo `requirements.txt` para obter a lista completa de dependências.
 
 ## Uso
 
-1. Execute o arquivo `app/__init__.py` para iniciar a aplicação.
+1. Execute o arquivo `run.py` para iniciar a aplicação.
 2. Acesse a aplicação através do navegador ou cliente HTTP.
 3. Utilize as funcionalidades de cadastro de administrações e igrejas.
 
