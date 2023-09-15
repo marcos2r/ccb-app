@@ -40,7 +40,7 @@ def criar_app():
     app = Flask(__name__)
     CORS(app)  # Habilita CORS para o aplicativo
 
-    @app.route("/dados", methods=["GET"])
+    @app.route("/igrejas", methods=["GET"])
     def get_data():
         try:
             # Obtém os documentos da coleção 'igrejas' e converte para JSON
