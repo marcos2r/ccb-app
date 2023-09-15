@@ -53,9 +53,6 @@ Aqui está uma breve descrição de cada um dos principais componentes:
 
 ## `run.py` - Script de Inicialização da Aplicação Flask
 
-**Autor:** [Seu Nome]
-**Data de Alteração:** [Data de Hoje]
-
 Este script é o ponto de entrada para a execução da aplicação Flask definida no módulo `app`. Ele realiza as seguintes ações:
 
 1. Importa a função `criar_app` do módulo `app`, responsável por criar uma instância da aplicação Flask.
