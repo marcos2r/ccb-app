@@ -15,7 +15,7 @@ app = criar_app()  # Cria a instância da aplicação Flask
 if __name__ == "__main__":
     try:
         # Inicia o servidor Flask, escutando em todas as interfaces (0.0.0.0)
-        app.run(host='0.0.0.0')
+        app.run(host='0.0.0.0', port='8000')
 
     except Exception as e:
         # Trata possíveis erros e imprime uma mensagem amigável
