@@ -22,17 +22,12 @@ class MongoDB:
         try:
             # Obtém uma coleção do banco de dados
             collection = self.__db[name]
-            documents = []
 
-            # Itera sobre os documentos na coleção
-            for document in collection.find():
-                documents.append(document)
-
-            return documents
+            return collection
         except Exception as e:
             # Em caso de erro na obtenção da coleção ou busca de documentos, imprime a mensagem de erro
             print(f"Erro ao obter documentos da coleção {name}: {e}")
-            return []
+            return False
 
     def disconnect(self):
         try:
