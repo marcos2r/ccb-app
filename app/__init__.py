@@ -1,57 +1,26 @@
-"""
-Autor: Marcos Ricardo Rodrigues
-Data de Alteração: 15/09/2023
+'''
+Em resumo, esse código é responsável por configurar uma aplicação Flask para lidar com rotas e habilitar o suporte a CORS,
+tornando-a pronta para ser executada e para responder a solicitações HTTP. 
+As rotas e a lógica de manipulação de solicitações provavelmente estão definidas no Blueprint app.routes.
+'''
 
-Este código cria uma aplicação Flask que se conecta a um banco de dados MongoDB.
-Ele obtém documentos da coleção 'igrejas' no banco de dados e fornece esses dados
-em formato JSON através de uma rota HTTP '/dados'. A aplicação também lida com erros
-e retorna mensagens de erro adequadas em caso de problemas.
-"""
-import json
-from flask import Flask, Response
+# Importa a classe Flask do framework Flask e o módulo CORS para lidar com CORS (Cross-Origin Resource Sharing).
+from flask import Flask
 from flask_cors import CORS
-from config import mongodb_name, mongodb_uri
-from app.models.mongodb import MongoDB
 
-# Instanciação do objeto MongoDB para conectar ao banco de dados
-db = MongoDB()
-db.connect()
+# Importa o Blueprint (rotas) definido no módulo app.routes.
+from app.routes import bp
 
-# Obtém a coleção 'igrejas' do banco de dados
-collection = db.get_collection('igrejas')
-
-def obter_dados():
-    """
-    Obtém os documentos da coleção 'igrejas'.
-
-    Returns:
-        list: Uma lista de documentos da coleção 'igrejas'.
-    """
-    documents = list(collection.find())
-    return documents
-
+# Define uma função para criar a aplicação Flask.
 def criar_app():
-    """
-    Cria a aplicação Flask.
-
-    Returns:
-        Flask: Uma instância da aplicação Flask.
-    """
+    # Cria uma instância da aplicação Flask com o nome do módulo atual (__name__).
     app = Flask(__name__)
-    CORS(app)  # Habilita CORS para o aplicativo
+    
+    # Habilita o CORS para permitir solicitações de origens diferentes.
+    CORS(app)
+    
+    # Registra o Blueprint das rotas na aplicação, incluindo as rotas definidas nele.
+    app.register_blueprint(bp)
 
-    @app.route("/igrejas", methods=["GET"])
-    def get_data():
-        try:
-            # Obtém os documentos da coleção 'igrejas' e converte para JSON
-            response_data = json.dumps(obter_dados(), default=str)
-            return Response(response_data, content_type="application/json", status=200)
-        except Exception as e:
-            error_message = {"error": str(e)}
-            return Response(json.dumps(error_message), content_type="application/json", status=500)
-
+    # Retorna a instância da aplicação Flask criada.
     return app
-
-if __name__ == "__main__":
-    app = criar_app()
-    app.run()
