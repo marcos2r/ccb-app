@@ -1,0 +1,5 @@
+[default]
+MONGO_DATABASE_CONNECTION = "mongodb://root:1q2w3e4r@localhost:27017/"
+
+[production]
+MONGO_DATABASE_CONNECTION = ""
