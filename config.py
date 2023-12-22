@@ -1,5 +1,10 @@
-from decouple import config
 
-# Use as variáveis do seu arquivo .env para construir a mongodb_uri
-mongodb_uri = config('MONGODB_URL')
-mongodb_name = config('MONGODB_NAME')
+from dynaconf import Dynaconf
+
+settings = Dynaconf(
+    envvar_prefix="DYNACONF",
+    settings_files=['settings.toml', '.secrets.toml'],
+)
+
+# `envvar_prefix` = export envvars with `export DYNACONF_FOO=bar`.
+# `settings_files` = Load these files in the order.
