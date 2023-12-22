@@ -8,9 +8,9 @@ durante a inicialização do servidor, ele trata a exceção e imprime uma mensa
 
 É o ponto de entrada para executar sua aplicação Flask.
 """
-from app import criar_app  # Importa a função criar_app do seu módulo app
+from ccb.app import create_app  # Importa a função criar_app do seu módulo app
 
-app = criar_app()  # Cria a instância da aplicação Flask
+app = create_app()  # Cria a instância da aplicação Flask
 
 if __name__ == "__main__":
     try:
