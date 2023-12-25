@@ -1,9 +1,6 @@
 from flask import Flask
 from dynaconf import FlaskDynaconf
-
-from ccb.extensions import configuration
 from ccb.extensions import database
-
 from ccb.blueprints import restapi
 
 
