@@ -109,7 +109,7 @@ cd ccb-ddos-app
 ### Passo 2 - Instalar o virtualenv
 Instale o virtualenv para trabalhar com ambientes virtuais no python utilizando o comando:
 ```
-pip install virtualenv
+python3 -m venv venv
 ```
 Caso dê problema com a versão do pip atual, atualize o pip utilizando:
 ```
@@ -117,12 +117,8 @@ python -m pip install --upgrade pip
 ```
 
 ### Passo 3 - Ative o virtualenv
-Para ativar o ambiente virtual rode:
-```
-virtualenv venv
-```
+Para ativar sua pasta virtual, execute o seguinte comando:
 
-### Passo 4 - (Depende do seu sistema operacional)
 #### Windows
 ```
 .\venv\Scripts\activate
@@ -132,7 +128,10 @@ virtualenv venv
 ```
 source venv/bin/activate
 ```
-Para saber se deu certo a ativação, basta ver se fica ```(venv)``` aparecendo antes do caminho no terminal
+Sua pasta virtual está agora ativada. Você pode verificar se ela está ativada executando o seguinte comando:
+```
+which python
+```
 
 ### Passo 5 - Instalar as dependências
 Com o ambiente virtual ativado, toda instalação de biblioteca externa fica somente no ambiente virtual, ao invés de sujar sua instalação do python na máquina local
