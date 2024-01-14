@@ -144,11 +144,8 @@ pip install -r requirements.txt
 1. Crie o arquivo .env: No diretório raiz do seu projeto, crie um arquivo chamado .env.
 2. Defina Variáveis de Ambiente: Dentro do arquivo .env, como no exemplo abaixo:
 ```
-MONGODB_HOST=localhost
-MONGODB_PORT=27017
-MONGODB_USERNAME=seu_usuario
-MONGODB_PASSWORD=sua_senha
-MONGODB_DATABASE=seu_banco_de_dados
+FLASK_ENV= default
+FLASK_APP = ccb/app.py
 ```
 Observação: Lembre-se de substituir os valores das variáveis conforme sua configuração.
 
