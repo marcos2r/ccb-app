@@ -14,6 +14,7 @@ app = Flask(__name__)
 @app.route("/api/igrejas")
 def get_igrejas():
     try:
+        # Utilize json_util para serializar o ObjectId para JSON
         igrejas = list(collection.find({}, {"_id": 0}))
         return jsonify({"igrejas": json_util.dumps(igrejas)})
     except Exception as e:
