@@ -22,6 +22,19 @@ Este projeto é uma API RESTful que fornece informações sobre igrejas da Congr
 * six==1.16.0
 * Werkzeug==3.0.1
 
+## Estrutura do Projeto
+
+A estrutura do projeto segue as seguintes convenções:
+```
+ccb-ddos-app/
+│
+├── README.md
+├── main.py
+├── requirements.txt
+├── venv/ (ambiente virtual - opcional)
+```
+Aqui está uma breve descrição de cada um dos principais componentes:
+
 ## Como executar
 
 ### Clonar o repositório
