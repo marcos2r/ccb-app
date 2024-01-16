@@ -34,7 +34,10 @@ ccb-ddos-app/
 └── venv/ (ambiente virtual - opcional)
 ```
 Aqui está uma breve descrição de cada um dos principais componentes:
-**README.md**: Este arquivo de documentação que você está lendo agora, fornece informações sobre o projeto, configuração e instruções de uso.
+- **README.md**: Este arquivo de documentação que você está lendo agora, fornece informações sobre o projeto, configuração e instruções de uso.
+- **main.py**: É o ponto de entrada da aplicação que executa o servidor de desenvolvimento Flask.
+- **requirements.txt**: Lista as dependências da aplicação Flask, que podem ser instaladas usando o `pip`.
+- **venv/** (opcional): Este é um ambiente virtual que isola as dependências do projeto para evitar conflitos com outras aplicações Python no sistema.
 
 ## Como executar
 
