@@ -34,7 +34,7 @@ ccb-ddos-app/
 └── venv/ (ambiente virtual - opcional)
 ```
 Aqui está uma breve descrição de cada um dos principais componentes:
-- **README.md**: Este arquivo de documentação que você está lendo agora, fornece informações sobre o projeto, configuração e instruções de uso.
+**README.md**: Este arquivo de documentação que você está lendo agora, fornece informações sobre o projeto, configuração e instruções de uso.
 
 ## Como executar
 
