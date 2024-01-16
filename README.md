@@ -20,9 +20,9 @@ Para clonar este repositório usando o comando git clone, siga estas etapas:
 1. Abra um terminal ou prompt de comando.
 2. Navegue até o diretório onde deseja clonar o repositório.
 3. Digite o seguinte comando:
-´´´
+```
 git clone https://github.com/marcos2r/ccb-ddos-app.git
-´´´
+```
 
 ### Iniciar o ambiente virtual do python
 
