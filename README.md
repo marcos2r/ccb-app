@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é uma API RESTful que fornece informações sobre igrejas da Confederação Cristã do Brasil (CCB).
+Este projeto é uma API RESTful que fornece informações sobre igrejas da Congregação Cristã do Brasil (CCB).
 
 ## Requisitos
 
