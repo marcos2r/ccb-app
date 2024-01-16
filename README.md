@@ -31,7 +31,7 @@ ccb-ddos-app/
 ├── README.md
 ├── main.py
 ├── requirements.txt
-├── venv/ (ambiente virtual - opcional)
+└── venv/ (ambiente virtual - opcional)
 ```
 Aqui está uma breve descrição de cada um dos principais componentes:
 
