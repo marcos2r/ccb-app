@@ -14,9 +14,11 @@ Este projeto é uma API RESTful que fornece informações sobre igrejas da Congr
 * colorama==0.4.6
 * dnspython==2.4.2
 * Flask==3.0.0
+* gunicorn==21.2.0
 * itsdangerous==2.1.2
 * Jinja2==3.1.3
 * MarkupSafe==2.1.3
+* packaging==23.2
 * pymongo==4.6.1
 * python-dateutil==2.8.2
 * six==1.16.0
