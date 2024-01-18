@@ -3,7 +3,6 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import os
 
-
 mongodb_uri = os.getenv("MONGODB_URI")
 
 client = MongoClient(mongodb_uri, server_api=ServerApi('1'))
@@ -29,5 +28,3 @@ def create_app():
             return jsonify({"erro": str(e)})
 
     return app
-
-app = create_app()
