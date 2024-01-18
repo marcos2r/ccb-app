@@ -1,10 +1,8 @@
 from flask import Flask, jsonify
-from dotenv import load_dotenv
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import os
 
-load_dotenv()
 
 mongodb_uri = os.getenv("MONGODB_URI")
 
