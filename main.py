@@ -11,7 +11,7 @@ try:
     client.admin.command('ping')
     print("Pingou sua implantação. Você se conectou com sucesso ao MongoDB!")
 except Exception as e:
-    print(e)
+    print(f"Erro ao se conectar ao MongoDB: {e}")
 
 database = client["ccb"]
 collection = database["igrejas"]
@@ -28,3 +28,7 @@ def create_app():
             return jsonify({"erro": str(e)})
 
     return app
+
+if __name__ == "__main__":
+    app = create_app()
+    app.run(debug=True)
