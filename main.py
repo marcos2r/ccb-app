@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 from dotenv import load_dotenv
-from bson import json_util
 from gevent import monkey
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -28,9 +27,8 @@ def create_app():
     @app.route("/api/igrejas")
     def get_igrejas():
         try:
-            # Utilize json_util para serializar o ObjectId para JSON
             igrejas = list(collection.find({}, {"_id": 0}))
-            return jsonify({"igrejas": json_util.dumps(igrejas)})
+            return jsonify({"igrejas": igrejas})
         except Exception as e:
             return jsonify({"erro": str(e)})
 
