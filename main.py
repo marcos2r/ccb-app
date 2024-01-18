@@ -9,7 +9,11 @@ client = pymongo.MongoClient(mongodb_uri)
 database = client["ccb"]
 collection = database["igrejas"]
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
+    return app
+
+app = create_app()
 
 @app.route("/api/igrejas")
 def get_igrejas():
@@ -19,6 +23,3 @@ def get_igrejas():
         return jsonify({"igrejas": json_util.dumps(igrejas)})
     except Exception as e:
         return jsonify({"erro": str(e)})
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
