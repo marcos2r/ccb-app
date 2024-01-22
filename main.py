@@ -9,7 +9,6 @@ client = MongoClient(mongodb_uri, server_api=ServerApi('1'))
 
 try:
     client.admin.command('ping')
-    print("Pingou sua implantação. Você se conectou com sucesso ao MongoDB!")
 except Exception as e:
     print(f"Erro ao se conectar ao MongoDB: {e}")
 
@@ -31,4 +30,4 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(debug=True, port=8000)
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8000)))
