@@ -19,7 +19,7 @@ collection = database["igrejas"]
 def create_app():
     app = Flask(__name__)
 
-    @app.route("/api/igrejas")
+    @app.route("/igrejas")
     def get_igrejas():
         try:
             igrejas = list(collection.find({}, {"_id": 0}))
