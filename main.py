@@ -21,13 +21,13 @@ def create_app():
 
     CORS(app)
 
+    app.config['JSON_AS_ASCII'] = False
+    
     @app.route("/igrejas")
     def get_igrejas():
         try:
             igrejas = list(collection.find({}, {"_id": 0}))
-            response = jsonify({"igrejas": igrejas})
-            response.headers['Content-Type'] = 'application/json; charset=utf-8'
-            return response
+            return jsonify({"igrejas": igrejas})
         except Exception as e:
             return jsonify({"erro": str(e)})
 
