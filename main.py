@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from pymongo import MongoClient
+from flask_cors import CORS
 import os
 
 mongodb_uri = os.getenv("MONGODB_URI")
@@ -17,6 +18,8 @@ collection = db["igrejas"]
 def create_app():
     
     app = Flask(__name__)
+
+    CORS(app)
 
     @app.route("/igrejas")
     def get_igrejas():
